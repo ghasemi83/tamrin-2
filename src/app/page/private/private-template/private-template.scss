@@ -1,0 +1,42 @@
+
+
+.banner{
+    background-color: rgb(92, 135, 52);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow:  2px , 2px , 2px black;
+    padding: 1.5em;
+}
+.menu {
+    background-color:#c6ffcbdf;
+    display: flex;
+     justify-content: space-between;
+    gap: 0.3em ;
+    padding: 0.3em ;
+    direction: rtl;}
+    .right-items{
+        display: flex;
+        gap: 0.3em;
+    }
+    .left-items{
+        display: flex;
+        gap: 0.3em;
+        direction: ltr;
+    }
+  .menu  a {
+        background-color: rgba(42, 106, 37, 0.588);
+        color: rgb(255, 248, 248);
+        text-decoration: none;
+        padding: 0.2em;
+        min-width: 80px;
+        text-align: center;
+        border-radius: 0.5em;
+        transform: 0.2S;
+    }
+
+
+    .divider{
+        flex: 1 1 auto;
+    }
