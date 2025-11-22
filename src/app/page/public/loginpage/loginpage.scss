@@ -1,0 +1,45 @@
+
+:host{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.login{
+    width: 230px;
+    background-color: white;
+    padding: 1.3em ;
+    border: 1px solid;
+    border-radius: 5px ;
+    box-shadow: 0 0 0.8em 0.2em ;
+    div {
+        margin: 0.5em 0;
+        input[type=text],input[type=password]{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0.4em ;
+        }
+        input:focus{
+            outline: none;
+        }
+    }
+    label:not(:last-child){
+        display: block;
+    }
+    button{
+        width: 100%;
+        background-color: rgba(37, 92, 31, 0.578);
+        color: azure;
+        padding: 0.4em;
+        border: none;
+        border-radius: 5px ;
+    }
+}
+.massage{
+    background-color: rgb(255, 218, 218);
+    color: red;
+    font-size: small;
+    padding: 0.4em ;
+    border-radius: 5px ;
+}
