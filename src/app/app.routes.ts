@@ -9,6 +9,7 @@ import { Contactpage } from './page/public/contactpage/contactpage';
 import { Dashboardpage } from './page/private/dashboardpage/dashboardpage';
 import { Userpage } from './page/private/userpage/userpage';
 import { Orderspage } from './page/private/orderspage/orderspage';
+import { Loginpage } from './page/public/loginpage/loginpage';
 
 
 export const routes: Routes = [
@@ -16,6 +17,7 @@ export const routes: Routes = [
         {path:'home',component:Homepage},
         {path:'about',component:Aboutpage},
         {path:'products',component:Productspage},
+        {path:'login',component:Loginpage},
         {path:'contact',component:Contactpage},
         {path:'',redirectTo:'home',pathMatch:'prefix'},
         {path:'**',redirectTo:'home'}
